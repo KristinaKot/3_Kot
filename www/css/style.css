@@ -40,6 +40,12 @@ body{
 	border-right: 0.01px solid white;
 }
 
+.top a {
+	color: white;
+}
+
+
+
 a {
 	text-decoration: none;
 	color: black;
