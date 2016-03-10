@@ -38,21 +38,13 @@ body{
 	background: linear-gradient(to top, #494949, #2f2f2f);
 	border-left: 0.01px solid white;
 	border-right: 0.01px solid white;
-}
+
+	}
 
 .top a {
 	color: white;
-}
-
-
-
-a {
 	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	text-decoration: underline;
+	
 }
 
 .sidebar{
@@ -125,4 +117,14 @@ p{
 
 .footer li:last-child{
 	float: right;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.footer a:hover {
+	text-decoration: underline;
 }
