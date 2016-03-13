@@ -51,7 +51,10 @@ body{
 	}
 
 .top li:nth-child(2) {
-	padding: 11px 25px 12px 25px;
+	padding: 11px 24px 12px 24px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background: linear-gradient(to top, #494949, #2f2f2f);
 	
 } 
 
@@ -156,15 +159,14 @@ p{
 	text-decoration: underline;
 }
 .active-top {
-	background: linear-gradient(to top, #494949, #2f2f2f);
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-	padding: 11px 49px 12px 24px;
+	background: red linear-gradient(to top, #494949, #2f2f2f);
+
+	
 }
 
 .active-sidebar {
 	background: #f9f9f9;
-	padding-left: 141450px;
+	
 }
 
 .active-footer {
